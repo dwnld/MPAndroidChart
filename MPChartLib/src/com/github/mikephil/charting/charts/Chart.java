@@ -245,7 +245,7 @@ public abstract class Chart<T extends ChartData<? extends IDataSet<? extends Ent
         mDescPaint.setTextSize(Utils.convertDpToPixel(9f));
 
         mInfoPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        mInfoPaint.setColor(Color.rgb(247, 189, 51)); // orange
+        mInfoPaint.setColor(Color.rgb(44, 49, 101)); // changed this from orange to dark blue
         mInfoPaint.setTextAlign(Align.CENTER);
         mInfoPaint.setTextSize(Utils.convertDpToPixel(12f));
 
