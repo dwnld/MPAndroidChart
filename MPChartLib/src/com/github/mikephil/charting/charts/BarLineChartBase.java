@@ -104,7 +104,7 @@ public abstract class BarLineChartBase<T extends BarLineScatterCandleBubbleData<
     /**
      * Sets the minimum offset (padding) around the chart, defaults to 15
      */
-    protected float mMinOffset = 15.f;
+    protected float mMinOffset = 0f;
 
     /**
      * the listener for user drawing on the chart
